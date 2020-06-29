@@ -1,0 +1,150 @@
+/*********************
+ *		Fonts: 		 *
+ *********************/
+
+ @font-face {
+font-family: 'Proxima Nova Regular';
+font-style: normal;
+font-weight: normal;
+ src: url('../fonts/proximanova-regular-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('../fonts/proximanova-regular-webfont.svg#proxima_novablack') format('svg');
+
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Thin';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/proximanovat-thin-webfont.eot');
+    src: url('../fonts/proximanovat-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanovat-thin-webfont.woff2') format('woff2'),
+         url('../fonts/proximanovat-thin-webfont.woff') format('woff'),
+         url('../fonts/proximanovat-thin-webfont.svg#proxima_novathin') format('svg');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Light';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/proximanova-light-webfont.eot');
+    src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-light-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-light-webfont.woff') format('woff'),
+         url('../fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Semibold';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/proximanova-semibold-webfont.eot');
+    src: url('../fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-semibold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Bold';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/proximanova-bold-webfont.eot');
+    src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-bold-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-bold-webfont.svg#proxima_novabold') format('svg');
+}
+
+
+@font-face {
+font-family: 'Proxima Nova Extrabold';
+font-style: normal;
+font-weight: normal;
+ src: url('../fonts/proximanova-extrabld-webfont.eot');
+    src: url('../fonts/proximanova-extrabld-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-extrabld-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-extrabld-webfont.woff') format('woff'),
+         url('../fonts/proximanova-extrabld-webfont.svg#proxima_novaextrabold') format('svg');
+     }
+
+
+@font-face {
+font-family: 'Proxima Nova Black';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/proximanova-black-webfont.eot');
+    src: url('../fonts/proximanova-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-black-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-black-webfont.woff') format('woff'),
+         url('../fonts/proximanova-black-webfont.svg#proxima_novablack') format('svg');
+     }
+
+/**********************
+ * 		 Header 	  *
+ **********************/
+
+ header{
+ 	background: url('../images/banner.jpg') no-repeat;
+ 	
+ }
+
+ header .caption{
+ 	width: 580px; 	
+ 	text-align: center;
+ }
+
+ .banner{
+ 	height: 760px;
+ 	padding: 150px 0;
+ }
+section.services{
+	padding: 108px 0 120px;
+}
+section.feature{
+	padding: 108px 0 120px;
+	background: url("../images/section-bg.jpg") no-repeat 100% 50%;
+	background-size: 42%;
+}
+
+.features-block ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.features-block ul li {
+	padding-left:80px; 
+	position: relative;
+	margin-bottom: 52px;
+}
+.features-block ul li p{
+	font-family: Proxima Nova Regular;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #a7acbc;
+	margin-bottom: 0;
+}
+.features-block ul li>span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid #c7cde0;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	padding: 14px;
+	box-sizing: border-box;
+	font-size: 24px;
+	color: #3f4e76;
+	line-height: 18px;
+	text-align: center;
+	font-family: Proxima Nova Regular;
+	font-weight: normal;
+}
